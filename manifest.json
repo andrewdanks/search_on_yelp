@@ -1,0 +1,19 @@
+{
+    "name": "Yelp Search",
+    "description": "Allows you to instantly search on Yelp from the right-click menu.",
+    "version": "0.1",
+
+    "manifest_version": 2,
+    "minimum_chrome_version": "6",
+    "permissions": ["contextMenus", "tabs"],
+  
+    "background": { 
+        "scripts": ["yelp_search.js"]
+    },
+
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}

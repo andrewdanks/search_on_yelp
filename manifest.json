@@ -1,7 +1,7 @@
 {
     "name": "Yelp Search",
     "description": "Allows you to instantly search on Yelp from the right-click menu.",
-    "version": "0.1",
+    "version": "0.2",
 
     "manifest_version": 2,
     "minimum_chrome_version": "6",

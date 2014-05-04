@@ -1,5 +1,9 @@
+function processQuery(query) {
+    return encodeURIComponent(query.trim()).split('%20').join('+');
+}
+
 function getYelpSearchUrl(query) {
-    return 'http://www.yelp.com/search?find_desc=' + query;
+    return 'http://yelp.com/search?find_desc=' + processQuery(query);
 }
 
 function openSearchPage(info) {

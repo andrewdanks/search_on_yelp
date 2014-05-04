@@ -10,6 +10,6 @@ function openSearchPage(info) {
 
 chrome.contextMenus.create({
     title: "Search on Yelp",
-    contexts: ["selection"],
+    contexts: ["selection", "link"],
     onclick: openSearchPage
 }); 

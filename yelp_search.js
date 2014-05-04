@@ -3,9 +3,8 @@ function getYelpSearchUrl(query) {
 }
 
 function openSearchPage(info) {
-    var selectedText = info.selectionText;
-    var searchUrl = getYelpSearchUrl(selectedText)
-    chrome.tabs.create({url: searchUrl})
+    var searchUrl = getYelpSearchUrl(info.selectionText);
+    chrome.tabs.create({url: searchUrl});
 }
 
 chrome.contextMenus.create({
